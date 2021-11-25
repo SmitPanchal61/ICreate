@@ -1,0 +1,102 @@
+*{
+margin: 0;
+padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    padding: 1px 0;
+    position: sticky;
+}
+.logo{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 28%;
+    border: 2px solid gold;
+    border-radius: 50% 20% / 10% 40%; 
+}
+.nav-list{
+    align-items: center;
+    width: 50%;
+    display: flex;
+}
+.nav-list li{
+    font-size: 19px;
+    list-style: none;
+    padding: 30px 27px;
+}
+.nav-list li a{
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+}
+.nav-list li a:hover{
+    border-radius: 12px;
+    background-color: white;
+    color:rgb(87, 157, 236);
+}
+.rightNav{
+    width: 50%;
+    text-align: right;
+    padding: 46px 35px;
+    height: 1%;
+}
+.background{
+    background-color:rgb(236, 87, 87);
+}
+.btn{
+    height: 70%;
+    background-color:white;
+    cursor: pointer;
+    outline: none;
+    margin: -5px 0;
+    padding: 11px 21px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.btn a:link{
+    text-decoration: none;
+}
+.btn-secondary a:link{
+    text-decoration: none;
+}
+.btn:hover{
+    /* opacity:0.5; */
+    /* color:rgb(87, 157, 236); */
+    color:black;
+    background-color: rgb(87, 157, 236);
+}
+.btn-secondary{
+    height: 70%;
+    border: 1px solid;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    margin: -5px 0;
+    padding: 11px 21px;
+    border-radius: 10px;
+    font-size: 17px;
+    background:none;
+    /* background-color:white; */
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    /* opacity:0.5; */
+    /* background-color: whitesmoke; */
+    border: 1px solid black;
+    color:rgb(236, 87, 87);
+    
+} 
+.center{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

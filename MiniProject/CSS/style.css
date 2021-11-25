@@ -1,0 +1,57 @@
+#ABC {
+    background-color: rgb(87, 157, 236);
+    /* border: 1px solid red; */
+    border: 1px solid blue;
+}
+
+#DEF {
+    background-color: rgb(236, 87, 87);
+    border: 1px solid red;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #202ab6;
+    border-radius: 18px;
+}
+
+.button1:hover {
+    background-color: rgb(236, 87, 87);
+    color: white;
+}
+
+.button2 {
+    border-radius: 18px;
+    background-color: white;
+    color: black;
+    border: 2px solid #202ab6;
+}
+
+.button2:hover {
+    background-color: #5e71dd;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
